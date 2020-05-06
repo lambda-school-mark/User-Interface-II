@@ -98,6 +98,38 @@ video {
   margin: 0;
   max-width: 100%;
 }
+h1 {
+  font-size: 40px;
+}
 header {
   background-color: lightblue;
+  padding: 30px;
+}
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar > a {
+  border: 1px solid red;
+  padding: 3px;
+  display: block;
+}
+#about {
+  display: flex;
+}
+.project-header {
+  padding: 70px;
+  line-height: 40px;
+}
+.project-header h2 {
+  font-size: 30px;
+}
+.project-header button {
+  font-size: 10px;
+  padding: 5px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
