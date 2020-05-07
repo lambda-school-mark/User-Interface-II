@@ -104,32 +104,71 @@ h1 {
 header {
   background-color: lightblue;
   padding: 30px;
+  padding-left: 60px;
 }
 .nav-bar {
   display: flex;
 }
 
 .nav-bar > a {
-  border: 1px solid red;
+  border: 2px solid gray;
   padding: 3px;
   display: block;
 }
 #about {
   display: flex;
+  margin: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.project-header {
+#about .project-header {
   padding: 70px;
-  line-height: 40px;
+  line-height: 50px;
+}
+#about img {
+  width: 95%;
+}
+#about p {
+  width: 800px;
 }
 .project-header h2 {
-  font-size: 30px;
+  font-size: 32px;
 }
 .project-header button {
-  font-size: 10px;
-  padding: 5px;
+  font-size: 15px;
+  padding: 8px;
+}
+.project-header button:hover {
+  background-color: lightblue;
+}
+.text {
+  font-size: 20px;
 }
 .image-container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+.image-container > div {
+  width: 23%;
+  margin: 1%;
+  text-align: center;
+}
+#contact {
+  text-align: center;
+  padding: 3%;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: space-evenly;
+}
+#contact p {
+  font-size: 25px;
+  line-height: 60px;
+}
+#contact button {
+  font-size: 15px;
+  padding: 8px;
+}
+#contact button:hover {
+  background-color: lightblue;
 }
