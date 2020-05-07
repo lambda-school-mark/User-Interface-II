@@ -1,1 +1,174 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+h1 {
+  font-size: 40px;
+}
+header {
+  background-color: lightblue;
+  padding: 30px;
+  padding-left: 60px;
+}
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar > a {
+  border: 2px solid gray;
+  padding: 3px;
+  display: block;
+}
+#about {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#about .project-header {
+  padding: 70px;
+  line-height: 50px;
+}
+#about img {
+  width: 95%;
+}
+#about p {
+  width: 800px;
+}
+.project-header h2 {
+  font-size: 32px;
+}
+.project-header button {
+  font-size: 15px;
+  padding: 8px;
+}
+.project-header button:hover {
+  background-color: lightblue;
+}
+.text {
+  font-size: 20px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.image-container > div {
+  width: 23%;
+  margin: 1%;
+  text-align: center;
+}
+#contact {
+  text-align: center;
+  padding: 3%;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: space-evenly;
+}
+#contact p {
+  font-size: 25px;
+  line-height: 60px;
+}
+#contact button {
+  font-size: 15px;
+  padding: 8px;
+}
+#contact button:hover {
+  background-color: lightblue;
+}
